@@ -89,6 +89,10 @@ body{
     .my-box{
         top: 40%;
     }
+
+    #snackbaar{
+        font-size: 18px;
+    }
 }
 
 .avatar{
@@ -133,15 +137,15 @@ body{
 
 #snackbar {
     visibility: hidden;
-    width: 50px;
+    width: 120px;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 16px;
+    padding: 10px;
     position: fixed;
     z-index: 5;
     left: 50%;
-    margin-left: -37px;
+    margin-left: -63px;
     /* float: center; */
     bottom: 15%;
     font-size: 12px;
